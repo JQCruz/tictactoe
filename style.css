@@ -1,0 +1,34 @@
+.contentContainer{
+    align-items: center;
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.headerContainer{
+    background-color: grey;
+}
+
+
+.gameBoard{
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+    background-color: orange;
+    /* height: 300px;
+    width: 300px; */
+}
+
+.pageContainer{
+    background-color: blue;
+    height: 100vh;
+}
+
+.gameBoardCell{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
